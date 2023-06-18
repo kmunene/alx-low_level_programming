@@ -2,7 +2,9 @@
 
 
 /**
- * second code
+ * calling printf function
+ *
+ * return zero
  */
 int main(void)
 {
