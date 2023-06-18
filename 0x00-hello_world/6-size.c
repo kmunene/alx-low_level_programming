@@ -1,11 +1,12 @@
 #include <stdio.h>
+
 /**
  * call main function
  *
  * return: always retun 0(success)
  */
-
-int main(void) {
+int main(void)
+{
     printf("Size of char: %lu byte(s)\n", sizeof(char));
     printf("Size of short: %lu byte(s)\n", sizeof(short));
     printf("Size of int: %lu byte(s)\n", sizeof(int));
