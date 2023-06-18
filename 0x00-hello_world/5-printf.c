@@ -4,7 +4,7 @@
 /**
  * calling printf function
  *
- * return zero
+ * return: 0 on success
  */
 int main(void)
 {
