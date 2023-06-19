@@ -1,21 +1,28 @@
-#include <stdio.h>
 #include <stdlib.h>
+#include <stdio.h>
 #include <time.h>
 
-int main() {
-    srand(time(0));
-    long int n = rand();
-    int lastDigit = n % 10;
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
+int main(void)
+{
+	int n;
+	int ld;
 
-    printf("The string Last digit of %ld is ", n);
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
+	ld = n % 10;
 
-    if (lastDigit > 5) {
-        printf("%d and is greater than 5\n", lastDigit);
-    } else if (lastDigit == 0) {
-        printf("%d and is 0\n", lastDigit);
-    } else {
-        printf("%d and is less than 6 and not 0\n", lastDigit);
-    }
+	if (ld > 5)
+		printf("Last digit of %d is %d and is greater than 5\n", n, ld);
+	else if (ld == 0)
+		printf("Last digit of %d is %d and is 0\n", n, ld);
+	else
+		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, ld);
 
-    return 0;
+	return (0);
 }
+
