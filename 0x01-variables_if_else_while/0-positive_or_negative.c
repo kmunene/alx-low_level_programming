@@ -1,10 +1,12 @@
 #include <stdlib.h>
-#include <stdio.h>
+#include <stdio.h>   /* Include the header file for printf function */
 #include <time.h>
 
-/* more headers goes there */
-
-/* betty style doc for function main goes there */
+/**
+ * main - Entry point of the program
+ *
+ * Return: 0 on success
+ */
 int main(void)
 {
     int n;
@@ -13,20 +15,21 @@ int main(void)
     n = rand() - RAND_MAX / 2;
 
     /* Print the number */
-    printf("%d ", n);
+    printf("The number is: %d\n", n);
 
     /* Check if the number is positive, negative, or zero */
     if (n > 0)
     {
-        printf("is positive\n");
+        printf("The number is positive.\n");
     }
     else if (n < 0)
     {
-        printf("is negative\n");
+        printf("The number is negative.\n");
     }
     else
     {
-        printf("is zero\n");
+        printf("The number is zero.\n");
     }
-    return 0;
+
+    return (0);
 }
