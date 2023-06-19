@@ -8,7 +8,7 @@ int main()
     int n = rand();
     int lastDigit = n % 10;
 
-    printf("Last digit of %d is ", lastDigit);
+    printf("Last digit of %d is ", n, lastDigit);
 
     if (lastDigit > 5 )
     {
