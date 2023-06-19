@@ -1,28 +1,31 @@
 #include <stdio.h>
 
-void print_combinations(int digits[3]) {
-  int i, j, k;
-
-  for (i = 0; i < 3; i++) {
-    for (j = i + 1; j < 3; j++) {
-      for (k = j + 1; k < 3; k++) {
-        if (digits[i] != digits[j] && digits[i] != digits[k] && digits[j] != digits[k]) {
-          putchar(digits[i] + '0');
-          putchar(digits[j] + '0');
-          putchar(digits[k] + '0');
-          putchar(',');
-          putchar(' ');
-        }
-      }
-    }
-  }
-}
-
 int main() {
-  int digits[3] = {0, 1, 2};
+    int i, j;
 
-  /* Print all possible different combinations of three digits. */
-  print_combinations(digits);
+    for (i = 0; i <= 99; i++) {
+        for (j = i; j <= 99; j++) {
+            int num1 = i / 10;
+            int num2 = i % 10;
+            int num3 = j / 10;
+            int num4 = j % 10;
 
-  return 0;
+            // Print first two digits
+            putchar(num1 + '0');
+            putchar(num2 + '0');
+            putchar(' ');
+
+            // Print second two digits
+            putchar(num3 + '0');
+            putchar(num4 + '0');
+
+            // Check if we need to print comma and space
+            if (i != 99 || j != 99) {
+                putchar(',');
+                putchar(' ');
+            }
+        }
+    }
+
+    return 0;
 }
