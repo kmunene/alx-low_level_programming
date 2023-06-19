@@ -7,20 +7,31 @@
  */
 int main(void)
 {
-	int tensDigit;
-	int onesDigit;
+	int tensDigit1;
+	int onesDigit1;
+	int tensDigit2;
+	int onesDigit2;
 
-	for (tensDigit = 0; tensDigit < 10; tensDigit++)
+	for (tensDigit1 = 0; tensDigit1 < 10; tensDigit1++)
 	{
-		for (onesDigit = tensDigit + 1; onesDigit < 10; onesDigit++)
+		for (onesDigit1 = 0; onesDigit1 < 10; onesDigit1++)
 		{
-			putchar('0' + tensDigit);
-			putchar('0' + onesDigit);
-
-			if (tensDigit != 8 || onesDigit != 9)
+			for (tensDigit2 = tensDigit1; tensDigit2 < 10; tensDigit2++)
 			{
-				putchar(',');
-				putchar(' ');
+				for (onesDigit2 = (tensDigit2 == tensDigit1 ? onesDigit1 + 1 : 0); onesDigit2 < 10; onesDigit2++)
+				{
+					putchar('0' + tensDigit1);
+					putchar('0' + onesDigit1);
+					putchar(' ');
+					putchar('0' + tensDigit2);
+					putchar('0' + onesDigit2);
+
+					if (tensDigit1 != 9 || onesDigit1 != 8 || tensDigit2 != 9 || onesDigit2 != 9)
+					{
+						putchar(',');
+						putchar(' ');
+					}
+				}
 			}
 		}
 	}
@@ -29,3 +40,4 @@ int main(void)
 
 	return (0);
 }
+

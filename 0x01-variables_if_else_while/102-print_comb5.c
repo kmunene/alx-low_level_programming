@@ -28,7 +28,7 @@ int main(void)
 						putchar('0' + tensDigit2);
 						putchar('0' + onesDigit2);
 
-						if (tensDigit1 != 9 || onesDigit1 != 8 || tensDigit2 != 9 || onesDigit2 != 9)
+						if (!(tensDigit1 == 9 && onesDigit1 == 8 && tensDigit2 == 9 && onesDigit2 == 9))
 						{
 							putchar(',');
 							putchar(' ');
@@ -43,3 +43,4 @@ int main(void)
 
 	return (0);
 }
+
