@@ -1,5 +1,4 @@
 #include <stdlib.h>
-#include <stdio.h>
 #include <time.h>
 
 /* more headers goes there */
@@ -18,17 +17,15 @@ int main(void)
     /* Check if the number is positive, negative, or zero */
     if (n > 0)
     {
-        printf("%d\n is positive.\n");
+        printf("is positive.\n");
     }
     else if (n < 0)
     {
-        printf("The number is negative.\n");
+        printf("is negative.\n");
     }
     else
     {
-        printf("The number is zero.\n");
+        printf("is zero.\n");
     }
-
     return 0;
 }
-
