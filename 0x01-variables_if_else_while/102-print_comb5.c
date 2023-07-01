@@ -1,31 +1,38 @@
 #include <stdio.h>
 
-int main() {
+/**
+ * just trying to make thing work
+ *
+ * always return: 0 success
+ */
+
+int main(void)
+{
     int i, j;
 
-    for (i = 0; i <= 99; i++) {
-        for (j = i; j <= 99; j++) {
-            int num1 = i / 10;
-            int num2 = i % 10;
-            int num3 = j / 10;
-            int num4 = j % 10;
+    for (i = 0; i < 100; i++)
+    {
+        for (j = i; j < 100; j++)
+        {
+            int tens_i = i / 10;
+            int ones_i = i % 10;
+            int tens_j = j / 10;
+            int ones_j = j % 10;
 
-            // Print first two digits
-            putchar(num1 + '0');
-            putchar(num2 + '0');
+            putchar('0' + tens_i);
+            putchar('0' + ones_i);
             putchar(' ');
+            putchar('0' + tens_j);
+            putchar('0' + ones_j);
 
-            // Print second two digits
-            putchar(num3 + '0');
-            putchar(num4 + '0');
-
-            // Check if we need to print comma and space
-            if (i != 99 || j != 99) {
+            if (i != 99 || j != 99)
+            {
                 putchar(',');
                 putchar(' ');
             }
         }
     }
 
-    return 0;
+    return (0);
 }
+
