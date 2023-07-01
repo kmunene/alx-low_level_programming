@@ -1,65 +1,47 @@
 #include "main.h"
-
 /**
- * print_times_table - prints the n times table, starting with 0
- * @n: number of the times table
+ * print_times_table - prints the times table for n.
+ * @n: The multiplication table requested.
+ * Return: Nothing.
  */
 void print_times_table(int n)
 {
-	if (n >= 0 && n <= 15)
-	{
-		int i, j;
+	int i, j, res;
 
+	if (!(n > 15 || n < 0))
+	{
 		for (i = 0; i <= n; i++)
 		{
-			print_times_row(i, n);
+			for (j = 0; j <= n; j++)
+			{
+				res = (i * j);
+				if (j != 0)
+				{
+					_putchar(',');
+					_putchar(' ');
+				}
+				if (res < 10 && j != 0)
+				{
+					_putchar(' ');
+					_putchar(' ');
+					_putchar((res % 10) + '0');
+				}
+				else if (res >= 10 && res < 100)
+				{
+					_putchar(' ');
+					_putchar((res / 10) + '0');
+					_putchar((res % 10) + '0');
+				}
+				else if (res >= 100 && j != 0)
+				{
+					_putchar((res / 100) + '0');
+					_putchar((res / 10) % 10 + '0');
+					_putchar((res % 10) + '0');
+				}
+				else
+					_putchar((res % 10) + '0');
+			}
 			_putchar('\n');
 		}
 	}
 }
-
-/**
- * print_times_row - prints a single row of the times table
- * @row: the row number
- * @n: number of the times table
- */
-void print_times_row(int row, int n)
-{
-	int j;
-
-	for (j = 0; j <= n; j++)
-	{
-		int result = row * j;
-
-		if (j != 0)
-		{
-			_putchar(',');
-			_putchar(' ');
-
-			if (result < 10)
-			{
-				_putchar(' ');
-				_putchar(' ');
-			}
-			else if (result < 100)
-			{
-				_putchar(' ');
-			}
-		}
-
-		if (result < 10)
-			_putchar(result + '0');
-		else if (result < 100)
-		{
-			_putchar(result / 10 + '0');
-			_putchar(result % 10 + '0');
-		}
-		else
-		{
-			_putchar(result / 100 + '0');
-			_putchar((result / 10) % 10 + '0');
-			_putchar(result % 10 + '0');
-		}
-	}
-}
-
