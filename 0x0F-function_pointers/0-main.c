@@ -20,9 +20,10 @@ void print_name_as_is(char *name)
  */
 void print_name_uppercase(char *name)
 {
-    unsigned int i = 0;
+    unsigned int i;
 
     printf("Hello, my uppercase name is ");
+    i = 0;
     while (name[i])
     {
         if (name[i] >= 'a' && name[i] <= 'z')
@@ -35,7 +36,6 @@ void print_name_uppercase(char *name)
         }
         i++;
     }
-    printf("\n");
 }
 
 /**
@@ -50,4 +50,3 @@ int main(void)
     printf("\n");
     return (0);
 }
-
