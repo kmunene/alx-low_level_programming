@@ -2,10 +2,10 @@
 #include <stdio.h>
 
 /**
- * leet - change vowels to numbers.
+ * leet - change vowelsumbers.
  * @s: analyzed string.
  *
- * Return: String with all vowels changed.
+ * Return: Strin all vowels changed.
  */
 char *leet(char *s)
 {

@@ -2,8 +2,8 @@
 #include "main.h"
 
 /**
- * _atoi - converts a string to an integer
- * @s: string to be converted
+ * _atoi - converts a stringnteger
+ * @s: string to be con
  *
  * Return: the int converted from the string
  */
@@ -46,8 +46,8 @@ int _atoi(char *s)
 	return (n);
 }
 /**
- * main - multiplies two numbers
- * @argc: number of arguments
+ * main - multip two numbers
+ * @argc: number s
  * @argv: array of arguments
  *
  * Return: 0 (Success), 1 (Error)

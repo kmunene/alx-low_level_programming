@@ -3,9 +3,9 @@
 #include <stdio.h>
 
 /**
-* strtow - splits a string into words.
+* strtow - splits a string in.
 * @str: string to be splitted
-* Return: pointer to an array of strings (words) or null
+* Return: pointer to an array
 **/
 
 char **strtow(char *str)

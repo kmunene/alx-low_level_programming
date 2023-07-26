@@ -2,9 +2,9 @@
 #include "main.h"
 
 /**
- * main - prints the name of the program
- * @argc: number of arguments
- * @argv: array of arguments
+ * main - prints the name of ogram
+ * @argc: number of arguts
+ * @argv: array of argents
  *
  * Return: Always 0 (Success)
  */

@@ -1,11 +1,9 @@
-
-
 #include <stdio.h>
 #include <stdlib.h>
 /**
-* create_array - create array
+* create_array - cre
 * @size: size
-* @c: constant
+* @c: const
 * Return: char pointer
 */
 char *create_array(unsigned int size, char c)

@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * _strcat - appends src to the dest string
- * @dest: string to append by src
- * @src: string to append to dest
+ * _strcat - appends src to 
+ * @dest: string to apby src
+ * @src: strinpend to dest
  *
  * Return: address of dest
  */

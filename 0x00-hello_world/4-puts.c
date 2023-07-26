@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - Entry point of the program
+ * main - Entry point of the gram
  *
- * Return: 0 on success
+ * Return: 0 on suc
  */
 int main(void)
 {

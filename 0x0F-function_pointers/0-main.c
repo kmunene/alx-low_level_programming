@@ -2,7 +2,7 @@
 #include "function_pointers.h"
 
 /**
- * print_name_as_is - prints a name as is
+ * print_name_as_is - prints a naas is
  * @name: name of the person
  *
  * Return: Nothing.
@@ -13,7 +13,7 @@ void print_name_as_is(char *name)
 }
 
 /**
- * print_name_uppercase - print a name in uppercase
+ * print_name_uppercase - print a n
  * @name: name of the person
  *
  * Return: Nothing.

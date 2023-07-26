@@ -2,9 +2,9 @@
 #include <stdlib.h>
 
 /**
- * argstostr - main entry
- * @ac: int input
- * @av: double pointer array
+ * argstostr - main eny
+ * @ac: int in
+ * @av: double er array
  * Return: 0
  */
 char *argstostr(int ac, char **av)

@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * infinite_add -  adds two numbers
- * @n1: first number
- * @n2: second number
- * @r: result
+ * infinite_add -  adds twers
+ * @n1: first nu
+ * @n2: secoumber
+ * @r: ret
  * @size_r: result lenght
  * Return: sum
  *

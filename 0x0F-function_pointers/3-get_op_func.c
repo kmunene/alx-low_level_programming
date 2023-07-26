@@ -2,9 +2,9 @@
 #include <stdlib.h>
 /**
  * get_op_func - Selects 
- *               the operation asked by the user.
+ *               the operati
  * @s: The operator passed a
- * Return: A poifunction corresponding
+ * Return: A poifunct
  *         to the operator given as a parameter.
  */
 int (*get_op_func(char *s))(int, int)

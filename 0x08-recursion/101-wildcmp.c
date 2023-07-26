@@ -3,7 +3,7 @@
 /**
  * wildcmp - compares two strings.
  * @s1: string 1.
- * @s2: string 2. It can contains a * as a special character.
+ * @s2: string 2. It can contains
  * Return: 1 if s is palindrome, 0 if not.
  */
 int wildcmp(char *s1, char *s2)

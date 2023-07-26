@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * _memset -fill memory with constant values
- * @s: pointer to char params
+ * _memset -fill memory 
+ * @s: pointer to chars
  * @b: constant byte
  * @n: byte of mem area
  * Return: *s

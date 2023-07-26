@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * _isdigit - check if numbers are 0 - 9
- * @c: char to be checked
+ * _isdigit - check if numbe
+ * @c: char to be ch
  *
  * Return: 0 or 1
  */

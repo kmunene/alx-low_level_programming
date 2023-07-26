@@ -2,10 +2,10 @@
 #include <stdio.h>
 
 /**
- * print_buffer - prints buffer
- * @b: buffer
- * @size: size
- * Return: void
+ * print_buffer - prints
+ * @b: buffe
+ * @size: sze
+ * Return: oid
  */
 
 void print_buffer(char *b, int size)

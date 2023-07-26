@@ -1,10 +1,10 @@
 #include "function_pointers.h"
 #include <stdio.h>
 /**
- * array_iterator - prints each array
- * @array: array
+ * array_iterator - prints each ar
+ * @array: arr
  * @ six
- * @action: pointer to print in regular
+ * @action: pointer to ppiony
  * Return: null
  */
 void array_iterator(int *array, size_t size, void (*action)(int))

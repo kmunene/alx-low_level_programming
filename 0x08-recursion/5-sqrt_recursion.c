@@ -1,5 +1,5 @@
 /**
- * power_operation - returns the natural square root of a number.
+ * power_operation - returns the natural 
  * @n: input number.
  * @a: iterator.
  * Return: square root or -1.
@@ -16,7 +16,7 @@ int power_operation(int n, int a)
 	return (0 + power_operation(n, a + 1));
 }
 /**
- * _sqrt_recursion - returns the natural square root of a number.
+ * _sqrt_recursion - returns the natural s a number.
  * @n: input number.
  * Return: natural square root.
  */

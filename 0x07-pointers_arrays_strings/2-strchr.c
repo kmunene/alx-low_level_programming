@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
-  * _strchr - locate character in string
-  * @s: source string
-  * @c: character to find
+  * _strchr - locate character
+  * @s: source st
+  * @c: character to 
   *
-  * Return: the string from character found
+  * Return: the string from
   */
 char *_strchr(char *s, char c)
 {

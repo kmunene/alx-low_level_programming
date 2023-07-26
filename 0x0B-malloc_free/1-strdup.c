@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 /**
-*_strdup - the string given as a parameter.
+*_strdup - the str en as a parameter.
 *@str: - string
 *Return: - string
 */

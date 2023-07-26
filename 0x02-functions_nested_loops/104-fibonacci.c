@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - fibonacci <3
+ * main - fibcci <3
  *
- * Purpose - no hardcode
+ * Purpose - no h
  *
  * Return:  (Success)
  */

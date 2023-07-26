@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
-  * _strstr - locate a substring
+  * _strstr - locate a subs
   * @haystack: the string to search
-  * @needle: the string to find
+  * @needle:  string to find
   *
   * Return: char value
   */

@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
-  * _memcpy - copy memory area
-  * @dest:pointer to return
-  * @src: source memory area
-  * @n: bytes from memory area to copy
+  * _memcpy - copy memory
+  * @dest:pointer torn
+  * @src: sourceory area
+  * @n: bytes om memory area to copy
   *
   * Return: the pointer to dest.
   */

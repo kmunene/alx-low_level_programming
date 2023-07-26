@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * string_toupper -  changes all lowercase letter
- * of a string to uppercase.
- *@n: cadena de caracteres.
+ * string_toupper -  changes all lowe
+ * of a string to upper
+ *@n: cadena de caract
  * Return: n.
  */
 

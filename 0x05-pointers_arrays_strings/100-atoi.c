@@ -1,5 +1,5 @@
 /**
-* _atoi - changes a string to an int
+* _atoi - changes a s int
 * @s: the string to be changed
 *
 * Return: the converted int

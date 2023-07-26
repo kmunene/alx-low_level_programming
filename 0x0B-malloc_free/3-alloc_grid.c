@@ -3,10 +3,10 @@
 #include <stdlib.h>
 
 /**
- * **alloc_grid - function to allocate memory to grid
- * @width: int type
- * @height: int type
- * Return: grid of 0s
+ * **alloc_grid - functionate memory to grid
+ * @width: int ty
+ * @height: int ty
+ * Return: grid  0s
  */
 int **alloc_grid(int width, int height)
 {

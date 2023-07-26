@@ -1,9 +1,9 @@
 #include "function_pointers.h"
 /**
- * int_index - return index
+ * int_index - return i
  * @array: array
  * @size: size of elements in array
- * @cmp: pointer to ind out one of th three in 0ne
+ * @cmp: pointer to ind out
  * Return: xero
  */
 int int_index(int *array, int size, int (*cmp)(int))

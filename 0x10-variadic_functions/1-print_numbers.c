@@ -3,8 +3,8 @@
 #include <stdarg.h>
 
 /**
- * print_numbers - Prints numbers, followed by a new line.
- * @separator: The str to be print between numbers.
+ * print_numbers - Prints numbe
+ * @separator: The str to be print.
  * @n: The number of integers passed to the func.
  * @...: A variable of  numbers to be printed.
  */

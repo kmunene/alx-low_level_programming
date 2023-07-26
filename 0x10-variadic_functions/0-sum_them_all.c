@@ -2,9 +2,9 @@
 #include <stdarg.h>
 
 /**
- * sum_them_all - Returns the sum of all its paramters.
- * @n: The number of paramters passed to the function.
- * @...: A variable number of paramter to cal the sum of.
+ * sum_them_all - Returns the sum of
+ * @n: The number of paramters
+ * @...: A variable number of 
  *
  * Return: If n == 0 - 0.
  *         Otherwise - the sum of  parameters.

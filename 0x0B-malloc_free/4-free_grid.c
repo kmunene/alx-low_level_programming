@@ -3,8 +3,8 @@
 #include <stdlib.h>
 
 /**
- * free_grid - function to free memory
- * @grid: pointer to grid of int type
+ * free_grid - to free memory
+ * @grid: pointer to 
  * @height: int type
  * Return: clean up memory
  */

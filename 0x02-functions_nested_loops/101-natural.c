@@ -1,13 +1,8 @@
-/*
- * File: 101-natural.c
- * Auth: Vincent Kip
- */
-
 #include <stdio.h>
 
 /**
- * main - Lists all the natural numbers below 1024 (excluded)
- *        that are multiples of 3 or 5.
+ * main - Lists all the natural nued)
+ *        that are multiples
  *
  * Return: Always 0.
  */

@@ -3,8 +3,8 @@
 #include <ctype.h>
 #include <string.h>
 /**
- * check_num - check - string there are digit
- * @str: array str
+ * check_num - check - string tt
+ * @str: array 
  *
  * Return: Always 0 (Success)
  */
@@ -28,7 +28,7 @@ int check_num(char *str)
 }
 
 /**
- * main - Print the name of the program
+ * main - Print ram
  * @argc: Count arguments
  * @argv: Arguments
  *
@@ -54,7 +54,7 @@ int main(int argc, char *argv[])
 			sum += str_to_int;
 		}
 
-		/*Condition if one of the number contains symbols that are not digits*/
+		/*Condition if one of the hat are not digits*/
 		else
 		{
 			printf("Error\n");

@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * cap_string - capitalizes most of the words in a string.
+ * cap_string - capitalizes most owords in a 
  * @s: analyzed string.
  *
  * Return: String with all words capitalized.

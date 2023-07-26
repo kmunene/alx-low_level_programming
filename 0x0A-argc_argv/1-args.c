@@ -2,9 +2,9 @@
 #include "main.h"
 
 /**
- * main - print the number of arguments passed to the program
- * @argc: number of arguments
- * @argv: array of arguments
+ * main - print the number of arguments
+ * @argc: number of argu
+ * @argv: array of arments
  *
  * Return: Always 0 (Success)
  */

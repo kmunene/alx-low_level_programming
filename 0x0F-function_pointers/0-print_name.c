@@ -1,7 +1,7 @@
 #include "function_pointers.h"
 #include <stdio.h>
 /**
- * print_name - print name using function
+ * print_name - print name using fun;;;ction
  * @nme - names
  * @f: pointers
  * Return: nothing

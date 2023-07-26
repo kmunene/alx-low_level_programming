@@ -1,16 +1,14 @@
-
-
 #include <stdio.h>
 #include <stdlib.h>
 #include "main.h"
 
 /**
- * str_concat - function that concatenates two strings
+ * str_concat - function that c
  *
- * @s1: string of chars
+ * @s1: string of cha
  * @s2: string of chars
  *
- * Return: address of the newly allocated memory
+ * Return: address of ocated memory
  */
 
 char *str_concat(char *s1, char *s2)

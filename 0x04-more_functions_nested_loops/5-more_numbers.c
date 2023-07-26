@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * more_numbers - Prints a pattern of numbers
+ * more_numbers - Prints a p f numbers
  *
  * Return: void
  */

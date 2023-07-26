@@ -4,7 +4,7 @@
 /**
  * main - Entry point of the program
  *
- * Return: Always 1 (success)
+ * Return: Always 1 c
  */
 int main(void)
 {

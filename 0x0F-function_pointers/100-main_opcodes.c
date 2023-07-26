@@ -4,9 +4,9 @@
 /**
  * main - prints des
  * @argc: hadjksvhd
- * @argv: array of =====arguments
+ * @argv: array of argu
  *
- * Return: Always 0 (Success)
+ * Return: Always 0 Success)
  */
 int main(int argc, char *argv[])
 {

@@ -3,8 +3,8 @@
 #include <stdio.h>
 
 /**
- * print_all - prints anything
- * @format: list of types of argu passed to the func.
+ * print_all - prints any
+ * @format: list of types of argu 
  */
 void print_all(const char * const format, ...)
 {
