@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * get_bit - value of a vic at a given index
- * @n: decimal parameter
- * @index: index
- * Return: val
+ * get_bit - Gets the value of a bit at a given index
+ * @n: Decimal parameter
+ * @index: Index
+ * Return: Value of the bit at the specified index
  */
 int get_bit(unsigned long int n, unsigned int index)
 {
