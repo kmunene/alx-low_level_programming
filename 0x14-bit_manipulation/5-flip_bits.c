@@ -9,13 +9,12 @@
  */
 unsigned int flip_bits(unsigned long int n, unsigned long int m)
 {
-    unsigned long int kelvin, munene = 0;
+	unsigned long int xor, bits = 0;
 
-    for (kelvin = n ^ m; kelvin > 0; kelvin >>= 1)
-    {
-        munene += (kelvin & 1);
-    }
+	for (xor = n ^ m; xor > 0; xor >>= 1)
+	{
+		bits += (xor & 1);
+	}
 
-    return (munene);
+	return (bits);
 }
-

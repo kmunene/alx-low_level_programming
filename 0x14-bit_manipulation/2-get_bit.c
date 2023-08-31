@@ -1,18 +1,17 @@
 #include "main.h"
 
 /**
- * get_bit - Gets the value of a bit at a given index
- * @n: Decimal parameter
- * @index: Index
- * Return: Value of the bit at the specified index
+ * get_bit - value of a bit at a given index
+ * @n: decimal parameter
+ * @index: index
+ * Return: val
  */
 int get_bit(unsigned long int n, unsigned int index)
 {
-    int vic;
+	int bit;
 
-    vic = (n >> index);
-    if (index > 32)
-        return (-1);
-    return (vic & 1);
+	bit = (n >> index);
+	if (index > 32)
+	return (-1);
+	return (bit & 1);
 }
-

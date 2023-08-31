@@ -7,18 +7,17 @@
  */
 unsigned int binary_to_uint(const char *b)
 {
-    int kelvin;
-    unsigned int decimal_value = 0;
+	int i;
+	unsigned int dec_val = 0;
 
-    if (!b)
-        return (0);
+	if (!b)
+		return (0);
 
-    for (kelvin = 0; b[kelvin]; kelvin++)
-    {
-        if (b[kelvin] < 48 || b[kelvin] > 49)
-            return (0);
-        decimal_value = 2 * decimal_value + (b[kelvin] - 48);
-    }
-    return (decimal_value);
+	for (i = 0; b[i]; i++)
+	{
+		if (b[i] < 48 || b[i] > 49)
+			return (0);
+		dec_val = 2 * dec_val + (b[i] - 48);
+	}
+	return (dec_val);
 }
-
