@@ -1,53 +1,47 @@
 #include "main.h"
+
 /**
- * infinite_add -  adds twers
- * @n1: first nu
- * @n2: secoumber
- * @r: ret
- * @size_r: result lenght
- * Return: sum
+ *infinite_add - add two numbers.
  *
+ *@n1: first number.
+ *@n2: second number.
+ *@r: result.
+ *@size_r: result size.
+ *Return: the addition of n1 and n2.
  */
+
 char *infinite_add(char *n1, char *n2, char *r, int size_r)
-
 {
-/* local variable declaration */
-	int i = 0, j = 0, k, l = 0, f, s, d = 0;
+int add = 0, len1, len2, i, j;
 
-	while (n1[i] != '\0')
-		i++;
-	while (n2[j] != '\0')
-		j++;
-	if (i > j)
-		l = i;
-	else
-		l = j;
-	if (l + 1 > size_r)
-		return (0);
-	r[l] = '\0';
-	for (k = l - 1 ; k >= 0 ; k--)
+for (len1 = 0; n1[len1]; len1++)
+;
+for (len2 = 0; n2[len2]; len2++)
+;
+if (len1 > size_r || len2 > size_r)
+return (0);
+len1--;
+len2--;
+size_r--;
+for (i = 0; i < size_r; i++, len1--, len2--)
+{
+if (len1 >= 0)
+add += n1[len1] - '0';
+if (len2 >= 0)
+add += n2[len2] - '0';
+if (len1 < 0 && len2 < 0 && add == 0)
+break;
+r[i] = add % 10 + '0';
+add /= 10;
+}
+r[i] = '\0';
+if (len1 >= 0 || len2 >= 0 || add)
+return (0);
+for (i--, j = 0; i > j; i--, j++)
 	{
-		i--;
-		j--;
-		if (i >= 0)
-			f = n1[i] - '0';
-		else
-			f = 0;
-		if (j >= 0)
-			s = n2[j] - '0';
-		else
-			s = 0;
-		r[k] = (f + s + d) % 10 + '0';
-		d = (f + s + d) / 10;
-	}
-	if (d == 1)
-	{
-		r[l + 1] = '\0';
-		if (l + 2 > size_r)
-			return (0);
-		while (l-- >= 0)
-			r[l + 1] = r[l];
-		r[0] = d + '0';
-	}
-	return (r);
+add = r[i];
+r[i] = r[j];
+r[j] = add;
+}
+return (r);
 }
